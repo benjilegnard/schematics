@@ -1,10 +1,24 @@
 # @benjilegnard/schematics
 
-A collection of schematic from [@benjilegnard](https://twitter.com/benjilegnard)
+A collection of schematics from [@benjilegnard](https://twitter.com/benjilegnard)
 
-## inline
+## Installation
 
-A schematic to reintegrate html and style files to inline in an angular app
+Install angular schematics and this package globally :
+
+```bash
+npm i -g @angular-devkit/schematics @benjilegnard/schematics
+```
+
+## Usage
+
+### new-talk
+
+A schematic to generate a [`reveal.js`](https://revealjs.com/) talk with vite bundler and catppuccin theme.
+
+```bash
+schematics @benjilegnard/schematics:new-talk --name="My Next Talk"
+```
 
 ## Getting Started With Schematics
 
@@ -26,11 +40,5 @@ schematics --help
 
 ### Publishing
 
-To publish, simply do:
+Publishings is handled by github actions, push a tag and create a release on github for that.
 
-```bash
-npm run build
-npm publish
-```
-
-That's it!

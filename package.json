@@ -1,6 +1,6 @@
 {
 	"name": "@benjilegnard/schematics",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"description": "A collection of angular schematics",
 	"scripts": {
 		"build": "tsc -p tsconfig.json",
